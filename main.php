@@ -16,7 +16,7 @@ if($email != NULL){
     mail($to, $subject, $txt, $headers);
 }
 
-header('Location:index.html')
+header('Location:index.html');
 
 
 
